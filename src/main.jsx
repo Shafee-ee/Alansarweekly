@@ -12,7 +12,7 @@ import Hadees from "./pages/Hadees";
 import Fiqh from "./pages/Fiqh";
 import VismayaJagattu from "./pages/VismayaJagattu";
 import Vishleshanegalu from "./pages/Vishleshanegalu";
-// import Article from "./pages/Article";
+import Article from "./pages/Article";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       { path: "fiqh", element: <Fiqh /> },
       { path: "vismaya-jagattu", element: <VismayaJagattu /> },
       { path: "vishleshanegalu", element: <Vishleshanegalu /> },
-      // { path: "article/:id", element: <Article /> },
+      { path: "article/:id", element: <Article /> },
     ],
   },
 ]);
