@@ -1,6 +1,7 @@
 import React from 'react'
 import ArticleCard from '../components/ArticleCard'
 import { getLatestArticles } from '../data/articles'
+import SearchArticles from '../components/SearchArticles'
 
 const Home = () => {
     const latestArticles = getLatestArticles(5);
@@ -15,6 +16,13 @@ const Home = () => {
                 <p className="text-xl text-black max-w-2xl mx-auto">
                     Your trusted source for Islamic knowledge, insights, and contemporary analysis
                 </p>
+            </section>
+
+            {/* keli nodi SECTION */}
+            <section className='bg-blue-100 rounded-lg p-8 mb-12 shadow-md'>
+                <h2 className='text-3xl font-bold text-gray-900 mb-4 text-center'>Keli Nodi? 🔍</h2>
+                < SearchArticles />
+
             </section>
 
             {/* Latest Articles Section */}
