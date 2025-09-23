@@ -57,6 +57,7 @@ const AdminPage = () => {
                         }
                         className="w-full mb-3 p-2 border rounded"
                     />
+                    <input type="file" />
                     <button
                         type="submit"
                         className="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-700"
