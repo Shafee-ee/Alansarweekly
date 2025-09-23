@@ -13,6 +13,7 @@ import Fiqh from "./pages/Fiqh";
 import VismayaJagattu from "./pages/VismayaJagattu";
 import Vishleshanegalu from "./pages/Vishleshanegalu";
 import Article from "./pages/Article";
+import AdminPage from "./pages/AdminPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       { path: "vismaya-jagattu", element: <VismayaJagattu /> },
       { path: "vishleshanegalu", element: <Vishleshanegalu /> },
       { path: "article/:id", element: <Article /> },
+      { path: "admin", element: <AdminPage /> },
     ],
   },
 ]);
